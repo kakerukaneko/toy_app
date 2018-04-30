@@ -2,6 +2,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render html: "こんにちは6 local"
+    render html: "こんにちは7 cloud9"
   end
 end
